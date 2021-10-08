@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "705419960017",
+    "project_id": "student-tutor-me-6855e",
+    "storage_bucket": "student-tutor-me-6855e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:705419960017:android:35b69888770b8ad8ddaff0",
+        "android_client_info": {
+          "package_name": "com.groupd1.student_tutor_me"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "705419960017-5ufuqc62p8clm0lg89o4nckpal7s2de0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMMNauoPHbb7ncyMGhusDqRw518KVNb8A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "705419960017-5ufuqc62p8clm0lg89o4nckpal7s2de0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
