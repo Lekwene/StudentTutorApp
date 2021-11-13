@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:student_tutor_me/config/palette.dart';
 
-
 class LoginForm extends StatefulWidget {
   const LoginForm({Key? key}) : super(key: key);
 
@@ -41,9 +40,15 @@ class _LoginFormState extends State<LoginForm> {
                         _isObscure = !_isObscure;
                       });
                     },
-                    icon: Icon(
-                      _isObscure ? Icons.visibility_off: Icons.visibility,
-                       color: primaryColor,),
+                    icon: _isObscure
+                        ? Icon(
+                            Icons.visibility_off,
+                            color: textFeildColor,
+                          )
+                        : Icon(
+                            Icons.visibility,
+                            color: primaryColor,
+                          ),
                   )
                 : null),
       ),
